@@ -1,0 +1,53 @@
+Server running at http://0.0.0.0:80/
+
+### Message for subscription confirmation
+15 Jul 21:44:45 - receiving incoming message from SNS:
+request header: {"x-amz-sns-message-type":"SubscriptionConfirmation","x-amz-sns-message-id":"d62a7461-a458-416c-9ddb-500c4f8ee307","x-amz-sns-topic-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","content-length":"1526","content-type":"text/plain; charset=UTF-8","host":"34.229.134.53","connection":"Keep-Alive","user-agent":"Amazon Simple Notification Service Agent","accept-encoding":"gzip,deflate"}
+request method: "POST"
+
+request body: {"Type":"SubscriptionConfirmation","MessageId":"d62a7461-a458-416c-9ddb-500c4f8ee307","Token":"2336412f37fb687f5d51e6e241d59b68ca07984a417663f1a01f5227a0e668659fb682884c6b3c4c0a0e2bc7ef054270d08fc9cc051e5e25899637415c8734c608441e9085fdd8c52f8f8e8bf5e9c903ff762d843cfac56a95701184db6382d72cb84710db987a3a80fe6fae47bd6eb8","TopicArn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","Message":"You have chosen to subscribe to the topic arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST.\nTo confirm the subscription, visit the SubscribeURL included in this message.","SubscribeURL":"https://sns.us-east-1.amazonaws.com/?Action=ConfirmSubscription&TopicArn=arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST&Token=2336412f37fb687f5d51e6e241d59b68ca07984a417663f1a01f5227a0e668659fb682884c6b3c4c0a0e2bc7ef054270d08fc9cc051e5e25899637415c8734c608441e9085fdd8c52f8f8e8bf5e9c903ff762d843cfac56a95701184db6382d72cb84710db987a3a80fe6fae47bd6eb8","Timestamp":"2017-07-15T21:44:45.153Z","SignatureVersion":"1","Signature":"VzA1GWq5fm5GpctTa/4B4Bh6TWNiO9zuK/DQGpxMsSw8TgZSAEOa2jWiVz2UX7M5j1wfAgMvxXqqdaF1YMWoIH/KfIy5Dxh+COuR+F2b78MJrO3a7eaPFqMFzqP3++OvXdplFCyqu0/UdQxbrMrjQOlvoKPPpbqMpdhaxxX68x+lg52L+cJnj/lY8iXBS1XucUH9fEz/lYqslXwMiXYOnfqRKpkZnqUjWtccXqRuST/u7wWV2wEjU6jsLcliG+THuC4fG0xaAO9qZfchSzpXWw0hDbTMr2Bl2dGuWW2onHSpmK72gnvanQ7nh8byjTeKmHbhTu4kw1Kr4IEh5htEjw==","SigningCertURL":"https://sns.us-east-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem"}
+
+http/https subscription confirmed
+sending out HTTP 200 OK response
+
+### Authorization subscription confirmation
+15 Jul 21:47:14 - receiving incoming message from SNS:
+request header: {"host":"apitest.rafaxu.me","accept-encoding":"gzip,deflate","content-type":"text/plain; charset=UTF-8","user-agent":"Amazon Simple Notification Service Agent","x-amz-sns-message-id":"fe908991-766a-43d9-9a56-085bd2c87b7b","x-amz-sns-message-type":"SubscriptionConfirmation","x-amz-sns-topic-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","x-forwarded-for":"72.21.217.73","x-forwarded-port":"443","x-forwarded-proto":"https","content-length":"1526","connection":"keep-alive"}
+request method: "POST"
+
+Authorization Header is:  undefined
+No Authorization header for the request
+
+15 Jul 21:47:14 - receiving incoming message from SNS:
+request header: {"host":"apitest.rafaxu.me","accept-encoding":"gzip,deflate","authorization":"Basic Zm9vOmJhcg==","content-type":"text/plain; charset=UTF-8","user-agent":"Amazon Simple Notification Service Agent","x-amz-sns-message-id":"fe908991-766a-43d9-9a56-085bd2c87b7b","x-amz-sns-message-type":"SubscriptionConfirmation","x-amz-sns-topic-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","x-forwarded-for":"72.21.217.73","x-forwarded-port":"443","x-forwarded-proto":"https","content-length":"1526","connection":"keep-alive"}
+request method: "POST"
+
+Authorization Header is:  Basic Zm9vOmJhcg==
+Decoded Authorization  foo:bar
+Authorization header matched
+request body: {"Type":"SubscriptionConfirmation","MessageId":"fe908991-766a-43d9-9a56-085bd2c87b7b","Token":"2336412f37fb687f5d51e6e241d59b68ca07984a417663f1a01c0c0fea036b1b86aafb2aeb7803451739e2024d5150ef341789728682187ba8419e7338d11775dce0e21628fcc88fae6f44699875c88776d700094a2e8f4cd6bfe4db6077b5f44ed658f119f6e24960da579f02e477ba","TopicArn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","Message":"You have chosen to subscribe to the topic arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST.\nTo confirm the subscription, visit the SubscribeURL included in this message.","SubscribeURL":"https://sns.us-east-1.amazonaws.com/?Action=ConfirmSubscription&TopicArn=arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST&Token=2336412f37fb687f5d51e6e241d59b68ca07984a417663f1a01c0c0fea036b1b86aafb2aeb7803451739e2024d5150ef341789728682187ba8419e7338d11775dce0e21628fcc88fae6f44699875c88776d700094a2e8f4cd6bfe4db6077b5f44ed658f119f6e24960da579f02e477ba","Timestamp":"2017-07-15T21:47:14.283Z","SignatureVersion":"1","Signature":"c+3Fy2Hn6IhYxzw2zkLuR96u/BCN2qTEPOeQbdDUpAI+ypxAKjshcMcW9Z0G4zcHlX7lN8sj5mTytxad8CGNJk/z7IdMvBYmMA/Uew2TLeBVCWULtKsl0Gpc5qYmS+vMgNKlvX2NFm13/EEKXgWafDNpC9NFuo4+OLjX1VuS1Zp53HR0kqOQY8CxKuS1RPIsz7ovC1/SJYzi3+ragZW2cmqlacy7Ya34y0+aOSPD9uIx9H1rdliuQx63NLh879epHdPWrKsY2WjK6KZVwwt/unJCfkCTFZT16nRbx+CW4bd7RxlCusybGNmLZM7xnl7AzqWYSwFfZaLSX4vIQFHOvA==","SigningCertURL":"https://sns.us-east-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem"}
+
+http/https subscription confirmed
+sending out HTTP 200 OK response
+
+
+### send message without delay when authorization enabled
+15 Jul 21:52:25 - receiving incoming message from SNS:
+request header: {"host":"apitest.rafaxu.me","accept-encoding":"gzip,deflate","content-type":"text/plain; charset=UTF-8","user-agent":"Amazon Simple Notification Service Agent","x-amz-sns-message-id":"4c88510f-d42a-517e-9abb-00eb44f35eb2","x-amz-sns-message-type":"Notification","x-amz-sns-subscription-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST:9b8c0898-f18d-413a-b62f-0e7315667807","x-amz-sns-topic-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","x-forwarded-for":"72.21.217.156","x-forwarded-port":"443","x-forwarded-proto":"https","content-length":"1227","connection":"keep-alive"}
+request method: "POST"
+
+Authorization Header is:  undefined
+No Authorization header for the request
+
+15 Jul 21:52:25 - receiving incoming message from SNS:
+request header: {"host":"apitest.rafaxu.me","accept-encoding":"gzip,deflate","authorization":"Basic Zm9vOmJhcg==","content-type":"text/plain; charset=UTF-8","user-agent":"Amazon Simple Notification Service Agent","x-amz-sns-message-id":"4c88510f-d42a-517e-9abb-00eb44f35eb2","x-amz-sns-message-type":"Notification","x-amz-sns-subscription-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST:9b8c0898-f18d-413a-b62f-0e7315667807","x-amz-sns-topic-arn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","x-forwarded-for":"72.21.217.156","x-forwarded-port":"443","x-forwarded-proto":"https","content-length":"1227","connection":"keep-alive"}
+request method: "POST"
+
+Authorization Header is:  Basic Zm9vOmJhcg==
+Decoded Authorization  foo:bar
+Authorization header matched
+request body: {"Type":"Notification","MessageId":"4c88510f-d42a-517e-9abb-00eb44f35eb2","TopicArn":"arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST","Subject":"testwithoutdealy","Message":"testing message without delay","Timestamp":"2017-07-15T21:52:25.814Z","SignatureVersion":"1","Signature":"e7iOAPqj+2eqs3k+k3VQVFXwR/JPN0ynw/1GeBDSNwgNBCSqMyv+t8WildsPnUNGM61qwXmZILvn0db+YIFkWUJ31JwnG6myjz9QsSUVf3u9B8vp2Dz2/AsmK8dhQH7phyaak7kerCKdXQIEPcSUs9JXOH/e6+bKtyjwraFGZaf2ujJa0f1L/nUfYbI48JNwMjCJNj+WKM+7Sh8IJweVlFu2RArgBRkhR73N9j7Ln4KeWanuMvESBKVJGq6TXWTsdUYgBgD/VODA2bpLRPrLUd6+m5k25MGLV2tblv7R/lj/X5IfASKJaHqXqrAAoi0H9Xc+6yTEZhKChUXshFTQEg==","SigningCertURL":"https://sns.us-east-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem","UnsubscribeURL":"https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:620428855768:SNSTOHTTPTEST:9b8c0898-f18d-413a-b62f-0e7315667807","MessageAttributes":{"AWS.SNS.MOBILE.MPNS.Type":{"Type":"String","Value":"token"},"AWS.SNS.MOBILE.MPNS.NotificationClass":{"Type":"String","Value":"realtime"},"AWS.SNS.MOBILE.WNS.Type":{"Type":"String","Value":"wns/badge"}}}
+
+sending out HTTP 200 OK response
+
+### simulate the long delay of the response
